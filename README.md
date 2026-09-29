@@ -17,7 +17,7 @@ Write-ups of CTF challenges from CyLab Security Academy (Carnegie Mellon's picoC
 - **General Skills:** SSH (`01_superSSH_generalskills`), binary inspection with `strings` (`04_stringsit_generalskills`)
 - **Cryptography:** ROT13 (`02_mod26_cryptography`)
 - **Web Exploitation:** locating a flag split across HTML, CSS and JS via View Source and DevTools (`03_inspector_webexploitation`), finding a hidden path via `robots.txt` (`05_wherearetherobots_webexploitation`)
-- **Forensics:** extracting a flag hidden in the text elements of an SVG image file by reading its raw XML content ('06_enhance_forensics')
+- **Forensics:** extracting a flag hidden in the text elements of an SVG image file by reading its raw XML content (`06_enhance_forensics`)
 
 Each write-up includes the approach taken, difficulties faced along the way, tools used, and what I learned.
 
