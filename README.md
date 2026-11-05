@@ -3,15 +3,15 @@ Hands-on cybersecurity work by Gayathri Ramesh: a vulnerability assessment of an
 
 ## What's inside
 
-### `vulnerability-assessment/`
+### [vulnerability-assessment](vulnerability-assessment/)
 A vulnerability assessment of Metasploitable2, run in an isolated home lab (Kali Linux attacker VM and Metasploitable2 target on a host-only network, no external systems involved).
 
 - 5 findings, including 3 rated Critical: an unauthenticated root shell (port 1524), the vsftpd 2.3.4 backdoor (CVE-2011-2523), and Samba remote command execution (CVE-2007-2447)
 - Each finding covers severity, description, evidence, impact and remediation
-- Every finding was verified manually rather than relying on scanner output alone
+- The bind shell and anonymous SMB access were confirmed manually; the vsftpd and Samba findings were identified by version and not exploited.
 - Tools used: nmap, searchsploit, smbclient, netcat
 
-### `picoctf-writeups/`
+### [picoctf-writeups](picoctf-writeups/)
 Write-ups of CTF challenges from CyLab Security Academy (Carnegie Mellon's picoCTF platform), covering:
 
 - **General Skills:** SSH (`01_superSSH_generalskills`), binary inspection with `strings` (`04_stringsit_generalskills`)
